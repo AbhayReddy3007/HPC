@@ -2,7 +2,7 @@
 This program implements the K-means clustering algorithm using OpenMP. 
 The k-means algorithm is a popular clustering technique used in data mining and machine learning. It's used to partition a dataset into groups (clusters) based on similarities in the data points' features.
 
-#How it works
+##How it works
 Initialization: Choose the number of clusters (k) you want to create and randomly initialize k cluster centroids. These centroids represent the centers of the clusters.
 
 Assign Data Points to Clusters: For each data point in the dataset, calculate its distance to each cluster centroid. Assign the data point to the cluster whose centroid is closest (usually based on Euclidean distance).
