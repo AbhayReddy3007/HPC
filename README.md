@@ -26,14 +26,6 @@ The K-means algorithm finds applications in various domains, including:
 - **Anomaly Detection**: Identifying outliers or anomalies in data by clustering normal data points together and flagging those that fall far from their cluster centroids, useful in fraud detection, network intrusion detection, and system monitoring.
 
 
-
-## Distance Calculation
-
-The Euclidean distance formula is used to calculate the distance between a data point and its closest centroid. Given two points (x1, y1) and (x2, y2), the Euclidean distance is computed as:
-```
-distance = sqrt((x1 - x2)^2 + (y1 - y2)^2)
-```
-
 ## Constraints
 
 To run the program, the following requirements should be met:
